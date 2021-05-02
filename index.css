@@ -1,0 +1,70 @@
+nav{
+    /* background-color: #2B353F; */
+    color: white;
+    text-decoration: none;
+    display: flex;
+        justify-content: space-around;
+
+}
+
+body{   
+    background-image: url(./jim-kay-hogwarts-exp.jpeg);
+    background-repeat: no-repeat;
+    text-align: center; 
+    color: white;
+
+   
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: right;
+
+}
+button1 {
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    padding: 15px 32px;
+    background-color: purple;
+}
+
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 50px;
+}
+
+.class News1 {
+    text-align: left;
+}
+
+button2 {
+    color: white;
+    width: 350px;
+    height: 60px;
+    border-radius: 100px;
+    padding: 15px 32px;
+    background-color: purple;
+
+}
+
+h7 {
+    font-size: 20px;
+    text-align: left;
+}
+.h8 {
+    font-size: 20px;
+    text-align: center;
+    background-image: <a href"https://pm1.narvii.com/6419/18bc0ff1ac3d20ed2d37462b0e275a5d3ba0049d_hq.jpg"></a>
+
+}
+h9 {
+    font-size: 20px;
+    text-align: right;
+}
+
+
+/* https://images.ctfassets.net/usf1vwtuqyxm/2kstspbOHv5iUEytqoTXks/b80899dc0494955af8147506bd8587b5/jim-kay-hogwarts-exp.jpg */
