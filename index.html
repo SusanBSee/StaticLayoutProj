@@ -2,55 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Static Layout</title>
     <link rel="stylesheet" href="index.css">   
 </head>
 
 <body>
     <header>
-    <img src="WizardingWorldLogo.png" width="145" height="80" id="logo">
+        <img src="WizardingWorldLogo.png" width="145" height="80" id="logo">
     
-    <h2><button type="button1"><a href="https://my.wizardingworld.com/login">LOGIN</a></button>
-    </h2>
- 
-        <nav>
-                <a href="#">News and Features</a>
-                <a href="https://www.wizardingworld.com/quiz">Quizzes</a>
-                <a href="https://www.wizardingworld.com/writing-by-jk-rowling">J.K. Rowling Archive</a>
-                <a href="#">Discover</a>
-                <a href="https://www.wizardingworld.com/collections/starting-harry-potter">Starting Harry Potter</a>
-                <a href="https://my.wizardingworld.com/login">Hogwarts Sorting</a>
-                <a href="https://www.wizardingworld.com/harry-potter-fan-club">Fan Club</a>
-                <a href="#">PINS</a>
-                <a href="https://harrypottershop.com/">SHOP</a>
-        </nav>
+        <button id="button1"><a href="https://my.wizardingworld.com/login">LOGIN</a></button>
+       
+    </header>
+    <nav>
+        <a href="#">News and Features</a>
 
-        <body>
-            <h3>Harry Potter | Fantastic Beasts™</h2>
-            <h4>Take part in our official wand ceremony</h4>
-            <h5>Finding your wand is a rite of passage for all young wizards and witches. So what are you waiting for, discover yours now in the Harry Potter Fan Club online wand experience.
+        <a href="https://www.wizardingworld.com/quiz">Quizzes</a>
+
+        <a href="https://www.wizardingworld.com/writing-by-jk-rowling">J.K. Rowling Archive</a>
+
+        <a href="#">Discover</a>
+
+        <a href="https://www.wizardingworld.com/collections/starting-harry-potter">Starting Harry Potter</a>
+
+        <a href="https://my.wizardingworld.com/login">Hogwarts Sorting</a>
+
+        <a href="https://www.wizardingworld.com/harry-potter-fan-club">Fan Club</a>
+
+        <a href="#">PINS</a>
+
+        <a href="https://harrypottershop.com/">SHOP</a>
+    </nav>
+
+    <body>
+           
+            <img src="HP-FB.png">
+         
+            <h4>Take part in our official <p>wand ceremony</p>
+            </h4>
+            <h5><p>Finding your wand is a rite of passage for all young wizards</p>
+            <p>and witches. So what are you waiting for, discover yours now in</p>
+            <p>the Harry Potter Fan Club online wand experience.</p>
             </h5>
-            <button type="button2"><a href="https://my.wizardingworld.com/login">FIND YOUR WAND</a>
-            </button>              
+            <button id="button2">FIND YOUR WAND</button>              
+        
+    </body>
 
-        </body>
-            <div class = "News1">
-                <a href="https://www.wizardingworld.com/news/puzzles-and-spells-announces-magical-mischief-game-update">
-                NEWS <p>Harry Potter: Puzzles & Spells continues the fun of Magical Mischief with new..."</p>
-                </a>
-                </div>
-            </div>
-            <div class = "News2"></div>
-                <a href="https://www.wizardingworld.com/news/harry-potter-a-magical-year-coming-soon">
-                NEWS <p>Bloomsbuy and Scholastic announce the release of Harry Potter: A Magical Year, The Illustrations of Jim Kay</p>
-                </a>
-                <div class = "Features"></div>
-                <a href="https://www.wizardingworld.com/features/famous-faces-from-the-slug-club">
-                FEATURES <p>Famous faces from the Slug Club></p>
-                </a>
-                    
-      
+    <div class="grid-container">
+        <div class = "grid-item1">NEWS<p>Harry Potter: Puzzles & Spells continues the fun of Magical Mischief with new...<a href="https://www.wizardingworld.com/news/puzzles-and-spells-announces-magical-mischief-game-update"><img src="HP_TwinsLndscp.jpeg" width="500" height="300"></p></a>
+        </div>
+          
+        <div class ="grid-item">NEWS<p>Bloomsbuy and Scholastic announce the release of Harry Potter: A Magical Year, The Illustrations of Jim Kay<a href="https://www.wizardingworld.com/news/harry-potter-a-magical-year-coming-soon"><img src="HP_HarryLibrary.jpeg" width="500" height="300"></p></a>
+        </div>
+            
+        <div class ="grid-item">FEATURES<p>Famous faces from the Slug Club><a href="https://www.wizardingworld.com/features/famous-faces-from-the-slug-club"><img src="HP_SlugClub.jpeg" width="500" height="300"></p></a>
+        </div>
+    </div>
 </body>
 </html>

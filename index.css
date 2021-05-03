@@ -4,7 +4,7 @@ nav{
     text-decoration: none;
     display: flex;
         justify-content: space-around;
-
+    
 }
 
 body{   
@@ -15,19 +15,29 @@ body{
 
    
 }
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
 h1 {
     text-align: center;
+    font-size: 50px;
+
 }
 h2 {
     text-align: right;
 
 }
-button1 {
+#button1 {
+    color: white;
     width: 100px;
     height: 40px;
     border-radius: 100px;
-    padding: 15px 32px;
-    background-color: purple;
+    padding: 5px 26px;
+    background-color: #6b63b5;
+
+
 }
 
 h3 {
@@ -37,34 +47,24 @@ h4 {
     font-size: 50px;
 }
 
+h5 {
+    font-size: 16px;
+}
 .class News1 {
     text-align: left;
 }
 
-button2 {
+#button2 {
     color: white;
     width: 350px;
-    height: 60px;
+    height: 58px;
     border-radius: 100px;
     padding: 15px 32px;
-    background-color: purple;
-
+    background-color: #6b63b5;
+    font-family: Sofia Pro,serif;
 }
 
-h7 {
-    font-size: 20px;
-    text-align: left;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
-.h8 {
-    font-size: 20px;
-    text-align: center;
-    background-image: <a href"https://pm1.narvii.com/6419/18bc0ff1ac3d20ed2d37462b0e275a5d3ba0049d_hq.jpg"></a>
-
-}
-h9 {
-    font-size: 20px;
-    text-align: right;
-}
-
-
-/* https://images.ctfassets.net/usf1vwtuqyxm/2kstspbOHv5iUEytqoTXks/b80899dc0494955af8147506bd8587b5/jim-kay-hogwarts-exp.jpg */
