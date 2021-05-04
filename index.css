@@ -15,10 +15,10 @@ body{
 
    
 }
-header {
-    display: flex;
-    justify-content: flex-end;
-}
+.grid3 {
+    text-align: right
+
+} 
 
 h1 {
     text-align: center;
@@ -64,7 +64,9 @@ h5 {
     font-family: Sofia Pro,serif;
 }
 
-.grid-container {
+.grid-container2 {
     display: grid;
     grid-template-columns: auto auto auto;
+    display: flex
+        
 }
