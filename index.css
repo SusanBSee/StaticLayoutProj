@@ -1,29 +1,15 @@
-nav{
-    /* background-color: #2B353F; */
-    color: white;
-    /* text-decoration: none; */
-    display: flex;
-        justify-content: space-around;
-    
-}
-a {
-    color:white;
-}
-
 body{   
     background-image: url(./jim-kay-hogwarts-exp.jpeg);
     /* background-repeat: no-repeat; */
     text-align: center; 
     color: white;
     position: relative;
-
 }
 .grid-container {
     display: flex;
         justify-content: center;
     align-items: center;
     place-self: center; 
-    
 }
 
 .grid-container1 {
@@ -31,23 +17,40 @@ body{
     grid-template-columns: auto auto auto;
     display: flex;
         justify-content: right;
+}
 
-}
-.grid2 {
-    align-items: flex-end;
-    background-color: green;
-}
+/* .grid2 {
+LOGIN BUTTON CONTAINER
+} */
 
 #button1 {
     color: white;
-    width: 100px;
-    height: 40px;
-    border-radius: 100px;
-    padding: 5px 26px;
+    width: 90px;
+    height: 35px;
     background-color: #6b63b5;
     /* display: flex;
         justify-content: flex-end; */
 } 
+
+nav {
+    color: white;
+    display: flex;
+        justify-content: space-around; 
+    padding: 2%;
+}
+
+h4 {
+    font-size: 260%;
+    font-family: Bluu Next,serif;
+
+}
+
+h5 {
+    font-size: 180;
+    font-family: Sofia Pro,serif;
+    text-align: center;
+
+}
 
 #button2 {
     color: white;
@@ -65,32 +68,44 @@ body{
     grid-template-columns: auto auto auto;
     padding-top: 10%;
     
-    /* display: flex;
-        justify-content: flex-start; */
-    /* position: absolute;
-        top: 40px; left: 40px; */
 }
+
 .grid-item1 {
     text-align: left;
     position: relative;
-    /* display: flex;
-        justify-content: flex-start; */
+
 }
-
-
 
 .grid-item2 {
     text-align: left;
     position: relative;
-    
+
 }
 
 .grid-item3 {
     text-align: left;
 }
+
 .grid-container3 {
     display: flex;
         justify-content: left;
+    padding: 1%;
 
 }
 
+.grid-container3 {
+    display: grid;
+  
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: Butler,serif;
+        
+}
+
+h3 {
+    font-size: 20px;
+}
